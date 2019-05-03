@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('chunk-templates-3.0.1.jar'))

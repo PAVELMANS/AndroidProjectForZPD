@@ -26,5 +26,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
-    compile project(':mysql-connector-java-5.1.45-bin')
+    compile project(':gradle-wrapper')
+    compile project(':chunk-templates-3.0.1')
 }

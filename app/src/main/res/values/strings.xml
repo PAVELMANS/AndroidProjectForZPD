@@ -4,58 +4,43 @@
     <string name="math">Matemātika</string>
     <string name="physics">Fizika</string>
     <string name="chemistry">Ķīmija</string>
+
     <string-array name="mathName">
         <item>Saīsinātas reizināšanas formula</item>
-        <item>Herona formula</item>
+        <item>Hērona formula</item>
         <item>Kosinusu teorēma</item>
         <item>Sinusu teorēma</item>
     </string-array>
-    <string-array name="mathFormula">
-        <item>$$\left(a + b\right)^2 = a^2 + 2ab + b^2$$ $$a^2 - b^2 = \left(a - b\right)\left(a + b\right)$$</item>
-        <item>$$S = \sqrt{p(p-a)(p-b)(p-c)}$$</item>
-        <item>$$c^2 = a^2 + b^2 - 2ab \cos \gamma$$</item>
-        <item>$$\frac{a}{\sin \alpha} = \frac{b}{\sin \beta} = \frac{c}{\sin \gamma}$$</item>
+    <string-array name="mathForm">
+        <item>sais_reiz.html</item>
+        <item>herona_formula.html</item>
+        <item>kos_teor.html</item>
+        <item>sin_teor.html</item>
     </string-array>
-    <string-array name="mathDisc">
-        <item>$a, b\in \BbbR$</item>
-        <item>$p$ - pusperimetrs</item>
-        <item>$\gamma$ - leņķis starp $a, b$ malām</item>
-        <item>Trījsstūra malas ir proporcionāli pretējo leņķu sinusiem</item>
-    </string-array>
+
     <string-array name="physName">
         <item>Ideālas gāzes stāvokļa vienādojums</item>
         <item>Arhimēda spēks</item>
         <item>Gravitācijas likums</item>
         <item>Kinētiskā enerģija</item>
     </string-array>
-    <string-array name="physFormula">
-        <item>$$p = \frac{N}{V}kT$$</item>
-        <item>$$F_A = \rho_{šķ}gV$$</item>
-        <item>$$F = G\frac{m_1 * m_2}{R^2}$$</item>
-        <item>$$E_k = \frac{m * v^2}{2}$$</item>
+    <string-array name="physForm">
+        <item>ideala_gaze.html</item>
+        <item>arh_speks.html</item>
+        <item>grav_lik.html</item>
+        <item>kin_en.html</item>
     </string-array>
-    <string-array name="physDisc">
-        <item>$p$ - gāzes spiediens ($Pa$), $frac NV$ - gāzes molekulu koncentrācija ($m^{-3}$), $k$ - Bolcmaņa konstante, $T$ - gāzes termodinamiskā temperatūra ($K$)</item>
-        <item>$\rho_{šķ}$ - šķidruma blīvums, $h$ - atrašanās dziļums, $g$ - brīvās krišanas paātrinājums</item>
-        <item>$G = 6,6720 * 10^{-11}\frac{N * m^2}{kg^2}$ - gravitācijas konstante ($N$)</item>
-        <item>$m$ - ķermeņa masa($kg$), $v$ - ķermeņa ātrums ($m/s$)</item>
-    </string-array>
+
     <string-array name="chemName">
         <item>Vielas daudzuma aprēķināšana</item>
         <item>Tilpuma aprēķināšana</item>
         <item>Masasdaļa</item>
         <item>Koncentrācija</item>
     </string-array>
-    <string-array name="chemFormula">
-        <item>$$n = \frac mM$$</item>
-        <item>$$V = n * Vo$$</item>
-        <item>$$W = \frac{m}{m_{šķ}}$$</item>
-        <item>$$C = \frac nV$$</item>
-    </string-array>
-    <string-array name="chemDisc">
-        <item>$m$ - vielas masa, $M$ - vielas molmasa</item>
-        <item>$n$ - vielas daudzums, $Vo$ - gāzveida vielas moltilpums</item>
-        <item>$m$ - dotās vielas masa, $m_{šķ}$ - šķīduma masa</item>
-        <item>$n$ - vielas daudzums molos, $V$ - vielas tilpums</item>
+    <string-array name="chemForm">
+        <item>viel_daudz.html</item>
+        <item>tilp_apr.html</item>
+        <item>mas_dala.html</item>
+        <item>konc.html</item>
     </string-array>
 </resources>

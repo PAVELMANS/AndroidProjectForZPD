@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/chunk-templates-3.0.1" />
+            <option value="$PROJECT_DIR$/gradle-wrapper" />
             <option value="$PROJECT_DIR$/mysql-connector-java-5.1.45-bin" />
           </set>
         </option>
